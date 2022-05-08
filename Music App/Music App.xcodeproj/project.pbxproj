@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4B893282822EF8500EC2D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B893272822EF8500EC2D56 /* AppDelegate.swift */; };
-		E4B8932A2822EF8500EC2D56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B893292822EF8500EC2D56 /* SceneDelegate.swift */; };
-		E4B8932F2822EF8500EC2D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B8932D2822EF8500EC2D56 /* Main.storyboard */; };
-		E4B893312822EF8700EC2D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B893302822EF8700EC2D56 /* Assets.xcassets */; };
-		E4B893342822EF8700EC2D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B893322822EF8700EC2D56 /* LaunchScreen.storyboard */; };
-		E4B8933C2822F06200EC2D56 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8933B2822F06200EC2D56 /* NotesTableViewController.swift */; };
-		E4B8933E2822F09700EC2D56 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8933D2822F09700EC2D56 /* Note.swift */; };
-		E4B893402822F27B00EC2D56 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8933F2822F27B00EC2D56 /* NoteTableViewCell.swift */; };
-		E4B8934228233B0200EC2D56 /* AddNewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8934128233B0200EC2D56 /* AddNewNoteViewController.swift */; };
+		E49B04F2282860CE00531C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B04F1282860CE00531C89 /* AppDelegate.swift */; };
+		E49B04F4282860CE00531C89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B04F3282860CE00531C89 /* SceneDelegate.swift */; };
+		E49B04F6282860CE00531C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B04F5282860CE00531C89 /* ViewController.swift */; };
+		E49B04F9282860CE00531C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49B04F7282860CE00531C89 /* Main.storyboard */; };
+		E49B04FB282860D200531C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49B04FA282860D200531C89 /* Assets.xcassets */; };
+		E49B04FE282860D200531C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49B04FC282860D200531C89 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4B893242822EF8500EC2D56 /* Notes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B893272822EF8500EC2D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4B893292822EF8500EC2D56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4B8932E2822EF8500EC2D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4B893302822EF8700EC2D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4B893332822EF8700EC2D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4B893352822EF8700EC2D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4B8933B2822F06200EC2D56 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
-		E4B8933D2822F09700EC2D56 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		E4B8933F2822F27B00EC2D56 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
-		E4B8934128233B0200EC2D56 /* AddNewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteViewController.swift; sourceTree = "<group>"; };
+		E49B04EE282860CE00531C89 /* Music App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49B04F1282860CE00531C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E49B04F3282860CE00531C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E49B04F5282860CE00531C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49B04F8282860CE00531C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49B04FA282860D200531C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E49B04FD282860D200531C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E49B04FF282860D200531C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E4B893212822EF8500EC2D56 /* Frameworks */ = {
+		E49B04EB282860CE00531C89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E4B8931B2822EF8500EC2D56 = {
+		E49B04E5282860CE00531C89 = {
 			isa = PBXGroup;
 			children = (
-				E4B893262822EF8500EC2D56 /* Notes App */,
-				E4B893252822EF8500EC2D56 /* Products */,
+				E49B04F0282860CE00531C89 /* Music App */,
+				E49B04EF282860CE00531C89 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E4B893252822EF8500EC2D56 /* Products */ = {
+		E49B04EF282860CE00531C89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4B893242822EF8500EC2D56 /* Notes App.app */,
+				E49B04EE282860CE00531C89 /* Music App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4B893262822EF8500EC2D56 /* Notes App */ = {
+		E49B04F0282860CE00531C89 /* Music App */ = {
 			isa = PBXGroup;
 			children = (
-				E4B893272822EF8500EC2D56 /* AppDelegate.swift */,
-				E4B893292822EF8500EC2D56 /* SceneDelegate.swift */,
-				E4B8932D2822EF8500EC2D56 /* Main.storyboard */,
-				E4B8933F2822F27B00EC2D56 /* NoteTableViewCell.swift */,
-				E4B8933B2822F06200EC2D56 /* NotesTableViewController.swift */,
-				E4B8934128233B0200EC2D56 /* AddNewNoteViewController.swift */,
-				E4B8933D2822F09700EC2D56 /* Note.swift */,
-				E4B893302822EF8700EC2D56 /* Assets.xcassets */,
-				E4B893322822EF8700EC2D56 /* LaunchScreen.storyboard */,
-				E4B893352822EF8700EC2D56 /* Info.plist */,
+				E49B04F1282860CE00531C89 /* AppDelegate.swift */,
+				E49B04F3282860CE00531C89 /* SceneDelegate.swift */,
+				E49B04F5282860CE00531C89 /* ViewController.swift */,
+				E49B04F7282860CE00531C89 /* Main.storyboard */,
+				E49B04FA282860D200531C89 /* Assets.xcassets */,
+				E49B04FC282860D200531C89 /* LaunchScreen.storyboard */,
+				E49B04FF282860D200531C89 /* Info.plist */,
 			);
-			path = "Notes App";
+			path = "Music App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B893232822EF8500EC2D56 /* Notes App */ = {
+		E49B04ED282860CE00531C89 /* Music App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B893382822EF8700EC2D56 /* Build configuration list for PBXNativeTarget "Notes App" */;
+			buildConfigurationList = E49B0502282860D200531C89 /* Build configuration list for PBXNativeTarget "Music App" */;
 			buildPhases = (
-				E4B893202822EF8500EC2D56 /* Sources */,
-				E4B893212822EF8500EC2D56 /* Frameworks */,
-				E4B893222822EF8500EC2D56 /* Resources */,
+				E49B04EA282860CE00531C89 /* Sources */,
+				E49B04EB282860CE00531C89 /* Frameworks */,
+				E49B04EC282860CE00531C89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Notes App";
-			productName = "Notes App";
-			productReference = E4B893242822EF8500EC2D56 /* Notes App.app */;
+			name = "Music App";
+			productName = "Music App";
+			productReference = E49B04EE282860CE00531C89 /* Music App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E4B8931C2822EF8500EC2D56 /* Project object */ = {
+		E49B04E6282860CE00531C89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					E4B893232822EF8500EC2D56 = {
+					E49B04ED282860CE00531C89 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = E4B8931F2822EF8500EC2D56 /* Build configuration list for PBXProject "Notes App" */;
+			buildConfigurationList = E49B04E9282860CE00531C89 /* Build configuration list for PBXProject "Music App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = E4B8931B2822EF8500EC2D56;
-			productRefGroup = E4B893252822EF8500EC2D56 /* Products */;
+			mainGroup = E49B04E5282860CE00531C89;
+			productRefGroup = E49B04EF282860CE00531C89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4B893232822EF8500EC2D56 /* Notes App */,
+				E49B04ED282860CE00531C89 /* Music App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4B893222822EF8500EC2D56 /* Resources */ = {
+		E49B04EC282860CE00531C89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B893342822EF8700EC2D56 /* LaunchScreen.storyboard in Resources */,
-				E4B893312822EF8700EC2D56 /* Assets.xcassets in Resources */,
-				E4B8932F2822EF8500EC2D56 /* Main.storyboard in Resources */,
+				E49B04FE282860D200531C89 /* LaunchScreen.storyboard in Resources */,
+				E49B04FB282860D200531C89 /* Assets.xcassets in Resources */,
+				E49B04F9282860CE00531C89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E4B893202822EF8500EC2D56 /* Sources */ = {
+		E49B04EA282860CE00531C89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B8933E2822F09700EC2D56 /* Note.swift in Sources */,
-				E4B8933C2822F06200EC2D56 /* NotesTableViewController.swift in Sources */,
-				E4B893282822EF8500EC2D56 /* AppDelegate.swift in Sources */,
-				E4B8934228233B0200EC2D56 /* AddNewNoteViewController.swift in Sources */,
-				E4B8932A2822EF8500EC2D56 /* SceneDelegate.swift in Sources */,
-				E4B893402822F27B00EC2D56 /* NoteTableViewCell.swift in Sources */,
+				E49B04F6282860CE00531C89 /* ViewController.swift in Sources */,
+				E49B04F2282860CE00531C89 /* AppDelegate.swift in Sources */,
+				E49B04F4282860CE00531C89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4B8932D2822EF8500EC2D56 /* Main.storyboard */ = {
+		E49B04F7282860CE00531C89 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E4B8932E2822EF8500EC2D56 /* Base */,
+				E49B04F8282860CE00531C89 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E4B893322822EF8700EC2D56 /* LaunchScreen.storyboard */ = {
+		E49B04FC282860D200531C89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E4B893332822EF8700EC2D56 /* Base */,
+				E49B04FD282860D200531C89 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E4B893362822EF8700EC2D56 /* Debug */ = {
+		E49B0500282860D200531C89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		E4B893372822EF8700EC2D56 /* Release */ = {
+		E49B0501282860D200531C89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +280,7 @@
 			};
 			name = Release;
 		};
-		E4B893392822EF8700EC2D56 /* Debug */ = {
+		E49B0503282860D200531C89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Notes App/Info.plist";
+				INFOPLIST_FILE = "Music App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -311,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Notes-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		E4B8933A2822EF8700EC2D56 /* Release */ = {
+		E49B0504282860D200531C89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Notes App/Info.plist";
+				INFOPLIST_FILE = "Music App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Notes-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B8931F2822EF8500EC2D56 /* Build configuration list for PBXProject "Notes App" */ = {
+		E49B04E9282860CE00531C89 /* Build configuration list for PBXProject "Music App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B893362822EF8700EC2D56 /* Debug */,
-				E4B893372822EF8700EC2D56 /* Release */,
+				E49B0500282860D200531C89 /* Debug */,
+				E49B0501282860D200531C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B893382822EF8700EC2D56 /* Build configuration list for PBXNativeTarget "Notes App" */ = {
+		E49B0502282860D200531C89 /* Build configuration list for PBXNativeTarget "Music App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B893392822EF8700EC2D56 /* Debug */,
-				E4B8933A2822EF8700EC2D56 /* Release */,
+				E49B0503282860D200531C89 /* Debug */,
+				E49B0504282860D200531C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E4B8931C2822EF8500EC2D56 /* Project object */;
+	rootObject = E49B04E6282860CE00531C89 /* Project object */;
 }
