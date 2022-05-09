@@ -11,3 +11,12 @@
  editing details to a created note.
 
  The Notes app also supports the codable protocol, allowing the created notes to be saved and re-read from the memory.
+ 
+ 
+ 
+  ## MUSIC APP
+  
+  ![Screen Shot 2022-05-09 at 20 07 43](https://user-images.githubusercontent.com/66536211/167465871-4f77aab5-b040-47c6-999f-19cc4cf720ca.png) | ![Screen   Shot 2022-05-09 at 20 06 57](https://user-images.githubusercontent.com/66536211/167465890-44286f4c-e993-4de4-bdbb-4274736a11b0.png)
+  
+  Music app construct an audio player to play audio data uses AVAudioSession. With this application, you can play mp3 files on your computer using a    simulator and create a real music player.
+
