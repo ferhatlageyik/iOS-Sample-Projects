@@ -20,4 +20,4 @@
   
   Music app construct an audio player to play audio data uses AVAudioSession. With this application, you can play mp3 files on your computer using a    simulator and create a real music player. 
   
-  Music app has two screen, as a main screen has tableviewcontreller to listed musics with custom tableview cell which is showinig album image, song name and album name (Theese songs names and album names completly randomly created). And the second screen has audioplayer and UIButtons which are represents play/pause, previous and forward functions.
+  Music app has two screen, as a main screen has tableviewcontreller to listed musics with custom tableview cell which is showinig album image, song name and album name (Theese songs names and album names completly randomly created). And the second screen has audioplayer and UIButtons which are represents play/pause, previous and forward functions. (This study was made with reference to the ios academy youtube channel.)
