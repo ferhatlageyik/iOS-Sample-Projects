@@ -30,3 +30,14 @@
 
  Weather App gives the weather information of the city which is entry by user. These informations gets from https://openweathermap.org with API. With this application, it is aimed to convert the data received over the internet using APIs into the format we want and visualize them within the application.
  ( turkishkit resources were taken as reference while making this project. Thanks! ) 
+
+
+ ## FLICKR CLIENT APP
+ 
+ ![Screen Shot 2022-06-13 at 00 52 24](https://user-images.githubusercontent.com/66536211/173255374-5ed08de9-4a45-47a2-8957-826981b7fae2.png) | ![Screen Shot 2022-06-13 at 00 44 34](https://user-images.githubusercontent.com/66536211/173255372-3472ec43-cc8a-4222-ae2d-325e2f0f6cd8.png)
+
+
+Flickr Client app is a photos application that works like an instagram. The data gets from flickr API's.
+
+The app has two screen, as a main screen has tableViewController to listed recent photos and some information such as photo's owner name or photo's description which are get from flickr API's. And the second screen represents photo with higher resolution and photo's description. ( thanks to Patika.dev higher level swift course )
+
